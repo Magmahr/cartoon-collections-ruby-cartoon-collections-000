@@ -15,7 +15,7 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(array)
-  cheese_types = ["cheddar", "gouda", "camembert"]
-    array.find do |el| el == "cheddar" || el == "cheddar" || el == "camembert"
+  cheese_types = ["cheddar", "gouda", "camembert", "swiss"]
+    array.find do |el| el == "cheddar" || el == "cheddar" || el == "camembert" || el == "swiss"
   end
 end
